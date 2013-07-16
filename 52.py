@@ -1,5 +1,4 @@
 __author__ = 'slyfocks'
-import time
 def digits(number):
     return [int(i) for i in str(number)]
 def ispermutation(num1,num2):
