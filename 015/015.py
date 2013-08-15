@@ -1,10 +1,10 @@
 __author__ = 'slyfocks'
-
+import numpy as np
 
 #gives number of ways to traverse an n x m grid
 def lattice_paths(n, m):
     #initialize matrix
-    lattice = [[0 for x in range(n)] for y in range(m)]
+    lattice = [np.zeros(n) for y in range(m)]
     lattice[0][0], lattice[0][1], lattice[1][0] = 1, 1, 1
     for x in range(1, n):
         for y in range(1, m):
