@@ -3,6 +3,7 @@ import numpy as np
 
 
 #gives number of ways to traverse an n x m grid
+#the easy mathish way would be to simply do 40 choose 20
 def lattice_paths(n, m):
     #initialize matrix
     lattice = np.zeros((n+2, m+2))
