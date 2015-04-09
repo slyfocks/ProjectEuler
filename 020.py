@@ -1,5 +1,5 @@
-__author__ = 'slyfocks'
 import math
+
 factorial = math.factorial(100)
 digit_total = 0
 for digit in str(factorial):
